@@ -1,0 +1,56 @@
+/* This is the CSS Code for Question 1 */
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 1opx;
+    border: 10px; color: purple
+    
+
+}
+
+.container.body{
+    flex-direction: column
+    border 10px; color: rgb(13, 139, 212);
+}
+
+.container.main{
+    flex-direction: row;
+    flex: auto;
+}
+
+.container.article{
+    flex: 2;
+    overflow-y: auto;
+}
+
+.container.aside{
+    flex: 1;
+    overflow-y: auto;
+}
+
+.nav{
+    padding-left: 20px;
+    display: inline;
+}
+
+button {
+
+    text-emphasis-color: black;
+    background-color: greenyellow;
+    padding: 20px;
+    width: 100;
+
+}
+/* This is a defined global variable */
+:root {
+
+    --maincolor: red;
+}
+/* This is the use case: Which is using it within the stylesheet for a  */
+
+div {
+    color: var(--maincolor);
+}
